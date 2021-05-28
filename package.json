@@ -1,0 +1,25 @@
+{
+  "name": "autotest-project",
+  "version": "1.0.0",
+  "description": "Application used to test query \"ice makers\" on ckitchen.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgeswelli/AutoTest-Project.git"
+  },
+  "keywords": [
+    "AutoTest-Project"
+  ],
+  "author": "Dylan Geswelli",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dgeswelli/AutoTest-Project/issues"
+  },
+  "homepage": "https://github.com/dgeswelli/AutoTest-Project#readme",
+  "devDependencies": {
+    "cypress": "^7.4.0"
+  }
+}
