@@ -13,7 +13,7 @@ A simple project to test the search function of ckitchen.com using the query "ic
 
 ## How to Run Test
 1. `npx cypress open`
-2. Click `AutoTest.js` in the Cypress Application UI
+2. Click `AutoTest.js` in the Cypress Application UI (See first screenshot)
 
 ## Screenshots
 
