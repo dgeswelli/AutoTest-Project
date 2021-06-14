@@ -1,6 +1,10 @@
 describe('AutoTest Project', () => {
-    it('clicking "type" navigates to a new url', () => {
+    it('Testing website functionality for ckitchen.com', () => {
         cy.visit('https://www.ckitchen.com/')
+
+        // Locate cookies notification nav bar and click "I Agree" button 
+        cy.get('.notification-btns')
+        cy.contains('I Agree').click()
 
         // Get an input, type into it and verify that the value has been updated in the ckitchen search bar
         cy.get('input')
