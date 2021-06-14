@@ -12,12 +12,12 @@ A simple project to test the search function of ckitchen.com using the query "ic
 2. Install: `npm i`
 
 ## How to Run Test
-1. `npx cypress open`
-2. Click `AutoTest.js` in the Cypress Application UI (See first screenshot)
+1. `npx cypress run`
+<!-- 2. Click `AutoTest.js` in the Cypress Application UI (See first screenshot)
 
 ## Screenshots
 
 ![AutoTest-Project](public/images/AutoTest1.png)
 
 
-![AutoTest-Project](public/images/AutoTest2.png)
+![AutoTest-Project](public/images/AutoTest2.png) -->

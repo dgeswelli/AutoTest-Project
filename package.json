@@ -24,5 +24,8 @@
   "homepage": "https://github.com/dgeswelli/AutoTest-Project#readme",
   "devDependencies": {
     "cypress": "^7.4.0"
+  },
+  "dependencies": {
+    "wait-on": "^5.3.0"
   }
 }
