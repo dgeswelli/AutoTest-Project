@@ -1,6 +1,9 @@
 describe('AutoTest Project', () => {
     it('Testing website functionality for ckitchen.com', () => {
         cy.visit('https://www.ckitchen.com/')
+        
+        // Activates cookies feature
+        cy.scrollTo('center')
 
         // Locate cookies notification nav bar and click "I Agree" button 
         cy.get('.notification-btns')
