@@ -1,6 +1,6 @@
 # AutoTest-Project
 
-A simple project to test the search function of ckitchen.com using the query "ice makers". Application uses the [Cypress](https://www.cypress.io/) testing package.
+A project that uses Cypress and Continuous Integration to test functionality and various aspects of Ckitchen.com. Application uses the [Cypress](https://www.cypress.io/) testing package.
 
 ## Requirements
 
@@ -13,6 +13,7 @@ A simple project to test the search function of ckitchen.com using the query "ic
 
 ## How to Run Test
 1. `npx cypress run`
+
 <!-- 2. Click `AutoTest.js` in the Cypress Application UI (See first screenshot)
 
 ## Screenshots
