@@ -33,13 +33,13 @@ describe('AutoTest Project', () => {
         cy.get('.item-categories').contains('Full-Dice Ice Machines').click()
         cy.url().should('include', '/full-dice')
 
-        // Clicks the "Manitowoc" vendor checkbox using the Manitowoc brand value 
-        cy.get('.js-filter-value').check('09e51896-5085-42fc-9265-c23b5520db07')
+        // Clicks the "Manitowoc" vendor checkbox using it's data-title 
+        cy.get('[data-title="Manitowoc"]').check()
 
-        // Waits for new webpage to load
-        cy.wait(1000)
+        // Waits for webpage to load by checking the new webpage header
+        cy.get('.page-h1').should('have.text', '    Manitowoc Full Size Ice Cube Machines   ')
 
-        // Compares the brand product count from the filter bar to the overall total of products displayed
+        // Compares the brand product count from the filter bar to the overall total of products displayed.
         cy.get('.active > small').invoke('text').then(brandProductCount => {
           cy.get('.gt-items-total').should('have.text', brandProductCount)
         });
